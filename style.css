@@ -1,7 +1,7 @@
 ul {
     list-style-type: none;
     margin: 0;
-    padding: 14px 16px;
+    padding: 0;
     overflow: hidden;
     background-color: #333;
   }
@@ -24,4 +24,5 @@ ul {
   
   .active {
     background-color: #04AA6D;
+    float: right;
   }
