@@ -25,6 +25,9 @@ ul {
     background-color: rgba(23, 133, 123, 0.87);
   }
   
-  
+  p {
+    margin: 20px;
+    font-size: large;
+  }
 
   
