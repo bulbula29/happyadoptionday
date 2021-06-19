@@ -64,7 +64,7 @@ input[type = "text"], input[type = "password"] {
 input::placeholder {
   font-weight: normal;
   font-size: 13px;
-  transition: 0.3s ease;
+  transition: 0.5s ease;
 }
 
 input:focus::placeholder {
@@ -73,7 +73,7 @@ input:focus::placeholder {
   transform: translateY(-13px);
 }
 
-#jindal {
+#jindal:link, #jindal:visited {
   border: none;
   background: #043fff;
   padding: 5px 0;
@@ -85,11 +85,7 @@ input:focus::placeholder {
   letter-spacing: 1px;
   outline: none;
   cursor: pointer;
-}
-
-form button:active {
-  background: #2c58fe;
-  transform: scale(0.995);
+  text-decoration: none;
 }
 
 form .option {
