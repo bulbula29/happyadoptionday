@@ -1,4 +1,115 @@
-.wikipedia {
-  font-family: 'EB Garamond', serif;
-  font-weight:400;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
 }
+
+/* splash screen */
+
+.intro {
+  position: fixed;
+  z-index: 2;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: black;
+  transition: 2s;
+}
+
+.logo-header {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  color: white;
+}
+
+.logo {
+  position: relative;
+  display: inline-block;
+  bottom: -20px;
+  opacity: 0;
+  color: white;
+  font-family: cursive;
+  text-decoration: wavy;
+}
+
+.logo.active {
+  bottom: 0;
+  opacity: 1;
+  transition: ease-in-out 0.5s;
+}
+.logo.fade {
+  bottom: 150px;
+  opacity: 0;
+  transition: ease-in-out 0.5s;
+}
+
+
+
+ul {
+  list-style-type: none;
+  margin: 10px 7px;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  border-style: none;
+}
+
+li {
+  float: left;
+  font-size: 35px;
+  font-family:inherit;
+  letter-spacing: 1px;
+  border-style: none;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  border-style: none;
+}
+
+li a:hover {
+  background-color: rgba(23, 133, 123, 0.87);
+  border-style: none;
+}
+
+p {
+  margin: 20px;
+  font-weight: bold;
+  font-size: large;
+  font-style: oblique;
+  border-style: none;
+  color: black;
+  font-family: 'Lucida Calligraphy';
+
+}
+
+
+* {
+  box-sizing: border-box;
+  background-color: none;
+  border-style: none;
+  border-color: none;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+  border-style: none;
+}
+
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+  border-style: none;
+}
+
