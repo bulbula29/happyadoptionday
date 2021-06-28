@@ -1,0 +1,53 @@
+#pratistha1 {
+    width: 29%;
+    position: absolute;
+    top: 70px;
+    left: 2px;
+   
+}
+#pratistha2 {
+    width: 29%;
+    position: absolute;
+    top: 70px;
+    left: 440px;
+}
+#pratistha3 {
+    width: 29%;
+    position: absolute;
+    top: 70px;
+    left: 880px;
+
+}
+#pratistha4 {
+    width: 29%;
+    position: absolute;
+    top: 800px;
+    left: 220px;
+}
+#pratistha5 {
+    width: 29%;
+    position: absolute;
+    top: 800px;
+    left: 660px;
+}
+
+* {
+    background-image: linear-gradient(to right, purple, rgb(59, 142, 175));
+}
+
+#back {
+    font-family: cursive;
+    font-weight: lighter;
+    font-size: x-large;
+    margin: 20px;
+    background-image: none;
+    color: white;
+}
+
+#back:link, #back:visited {
+    color: white;
+}
+
+#back:hover {
+    color: hotpink;
+}

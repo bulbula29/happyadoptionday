@@ -1,0 +1,27 @@
+#bulbulaphoto {
+    position: absolute;
+    top: 50px;
+    left: 470px;
+    width: 30%;
+}
+
+* {
+    background-image: linear-gradient(to right, purple, rgb(59, 142, 175));
+}
+
+#back {
+    color: #f0f8f0;
+    font-family: cursive;
+    font-weight: lighter;
+    font-size: x-large;
+    margin: 20px;
+    background-image: none;
+}
+
+#back:link, #back:visited {
+    color: #f0f8f0
+}
+
+#back:hover {
+    color: hotpink;
+}

@@ -1,0 +1,21 @@
+* {
+    background-image: linear-gradient(to right, purple, rgb(59, 142, 175));
+
+}
+
+#back {
+    font-family: cursive;
+    font-weight: lighter;
+    font-size: x-large;
+    margin: 20px;
+    color: white;
+    background-image: none;
+}
+
+#back:link, #back:visited {
+    color: white;
+}
+
+#back:hover {
+    color: hotpink;
+}

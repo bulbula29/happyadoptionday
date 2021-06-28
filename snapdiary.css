@@ -1,0 +1,65 @@
+* {
+    background-image: linear-gradient(to right, purple, rgb(59, 142, 175));
+}
+
+#back {
+    font-family: cursive;
+    font-weight: lighter;
+    font-size: x-large;
+    margin: 20px;
+    background-image: none;
+    color: white;
+}
+
+#back:link, #back:visited {
+    color: white;
+}
+
+#back:hover {
+    color: hotpink;
+}
+
+#trending {
+    color: white;
+    letter-spacing: 2px;
+    background-image: none;
+    font-size: 60px;
+    position: absolute;
+    top: 0px;
+    padding: 0;
+    left: 400px;
+    background-image: none;
+}
+
+#snap1 {
+    width: 29%;
+    position: absolute;
+    top: 150px;
+    left: 2px;
+   
+}
+#snap2 {
+    width: 29%;
+    position: absolute;
+    top: 600px;
+    left: 440px;
+}
+#snap3 {
+    width: 29%;
+    position: absolute;
+    top: 10000px;
+    left: 880px;
+
+}
+#snap4 {
+    width: 29%;
+    position: absolute;
+    top: 20000px;
+    left: 220px;
+}
+#snap5 {
+    width: 29%;
+    position: absolute;
+    top: 15000px;
+    left: 660px;
+}
