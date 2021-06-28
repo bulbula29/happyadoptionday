@@ -116,27 +116,27 @@ transform: translateZ(0);
 
 .round-photo {
   position: absolute;
-  width: 300px;
-  height: 250px;
+  width: 400px;
+  height: 350px;
   top: 100px;
-  left: 800px;
+  left: 750px;
   border-radius: 50%;
   border: 3px solid rgb(44, 231, 169);
 }
 
 
 .janam-patri:link, .janam-patri:visited{
-  background-color: rgba(175, 50, 50, 0.726);
+  background-image: linear-gradient(to right, rgba(102, 255, 0, 0.719),hotpink);
   padding: 14px 25px;
   text-align: center;
   color: white;
   text-decoration: none;
   position: absolute;
-  top: 400px;
-  left: 720px;
+  top: 500px;
+  left: 750px;
   font-size: 30px;
   display: inline-block;
-  background-image: none;
+
 }
 
 .janam-patri:hover {
@@ -145,17 +145,17 @@ transform: translateZ(0);
 }
 
 .snap-diary:link, .snap-diary:visited{
-  background-color: rgba(175, 50, 50, 0.726);
+  background-image: linear-gradient(to right, rgba(102, 255, 0, 0.719),hotpink);
   padding: 14px 25px;
   text-align: center;
   color: white;
   text-decoration: none;
   position: absolute;
-  top: 400px;
-  left: 910px;
+  top: 500px;
+  left: 980px;
   font-size: 30px;
   display: inline-block;
-  background-image: none;
+
 }
 
 .snap-diary:hover {
@@ -163,7 +163,7 @@ transform: translateZ(0);
   background-image: none;
 }
 
- .spotify:link, .spotify:visited{ 
+ /* .spotify:link, .spotify:visited{ 
   background-color: rgba(175, 50, 50, 0.726);
   padding: 14px 25px;
   text-align: center;
@@ -182,7 +182,7 @@ transform: translateZ(0);
   background-image: none;
 }
 
-
+ */
 
 .container {
   position: relative;

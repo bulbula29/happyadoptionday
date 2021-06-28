@@ -1,0 +1,52 @@
+* {
+    background-image: linear-gradient(to right, purple, rgb(59, 142, 175));
+}
+
+#back {
+    font-family: cursive;
+    font-weight: lighter;
+    font-size: x-large;
+    margin: 20px;
+    background-image: none;
+    color: white;
+}
+
+#back:link, #back:visited {
+    color: white;
+}
+
+#back:hover {
+    color: hotpink;
+}
+
+#spousevideo {
+    width: 40%;
+    position: absolute;
+    top: 90px;
+    left: 400px;
+    background-image: none;
+   
+}
+#spouse1 {
+    width: 29%;
+    position: absolute;
+    top: 700px;
+    left: 480px;
+    background-image: none;
+}
+#spouseaksh {
+    width: 29%;
+    position: absolute;
+    top: 700px;
+    left: 930px;
+    background-image: none;
+
+}
+#spousepratistha {
+    width: 29%;
+    position: absolute;
+    top: 700px;
+    left: 30px;
+    height: 360px;
+    background-image: none;
+}

@@ -1,0 +1,56 @@
+#back {
+    font-family: cursive;
+    font-weight: lighter;
+    font-size: x-large;
+    margin: 20px;
+    background-image: none;
+    color: white;
+}
+
+#back:link, #back:visited {
+    color: white;
+}
+
+#back:hover {
+    color: hotpink;
+}
+
+* {
+    background-image: linear-gradient(to right, purple, rgb(59, 142, 175));
+}
+
+#nandini {
+    width: 29%;
+    position: absolute;
+    top: 750px;
+    left: 250px;
+    background-image: none;
+}
+#nandini1 {
+    width: 29%;
+    position: absolute;
+    top: 750px;
+    left: 725px;
+    background-image: none;
+}
+#nandini2 {
+    width: 29%;
+    position: absolute;
+    top: 70px;
+    left: 30px;
+    height: 600px;
+}
+#nandini3 {
+    width: 29%;
+    position: absolute;
+    top: 70px;
+    left: 500px;
+    height: 600px;
+}
+#nandini4 {
+    width: 29%;
+    position: absolute;
+    top: 70px;
+    left: 950px;
+    height: 600px;
+}

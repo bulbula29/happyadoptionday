@@ -1,5 +1,5 @@
 .bulbulapedia { 
-    color: #000;
+    color: rgb(146, 39, 101);
     position: absolute;
     top: 0px;
     left: 440px;
@@ -65,11 +65,11 @@
       width: 70%;
   }
 
-  #github:link, #github:visited, #akshitapage:link, #akshitapage:visited,#pratisthapage:link, #pratisthapage:visited, #soumyampage:link, #soumyampage:visited, #parthpage:link, #parthpage:visited, #abhinavpage:link, #abhinavpage:visited, #anshpage:link, #anshpage:visited, #bulbula:link, #bulbula:visited, #back:link, #back:visited  {
+  #github:link, #github:visited, #akshitapage:link, #akshitapage:visited,#pratisthapage:link, #pratisthapage:visited, #soumyampage:link, #soumyampage:visited, #parthpage:link, #parthpage:visited, #abhinavpage:link, #abhinavpage:visited, #anshpage:link, #anshpage:visited, #bulbula:link, #bulbula:visited, #back:link, #back:visited, #nandini:link, #nandini:visited, #spouse:link, #spouse:visited  {
       color: #0000ff;
   }
 
-  #github:hover, #akshitapage:hover, #pratisthapage:hover, #soumyampage:hover, #anshpage:hover, #abhinavpage:hover, #parthpage:hover, #bulbula:hover, #back:hover {
+  #github:hover, #akshitapage:hover, #pratisthapage:hover, #soumyampage:hover, #anshpage:hover, #abhinavpage:hover, #parthpage:hover, #bulbula:hover, #back:hover, #nandini:hover, #spouse:hover {
       color: hotpink;
   }
 
