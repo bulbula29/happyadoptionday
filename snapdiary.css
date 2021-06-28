@@ -34,32 +34,59 @@
 #snap1 {
     width: 29%;
     position: absolute;
-    top: 150px;
-    left: 2px;
-   
+    top: 170px;
+    left: 30px;
+    width: 29%;
+    height: 650px;
 }
 #snap2 {
     width: 29%;
     position: absolute;
-    top: 600px;
-    left: 440px;
+    top: 170px;
+    left: 460px;
+    height: 650px;
 }
 #snap3 {
     width: 29%;
     position: absolute;
-    top: 10000px;
+    top: 170px;
     left: 880px;
-
+    height: 650px;
 }
 #snap4 {
     width: 29%;
     position: absolute;
-    top: 20000px;
-    left: 220px;
+    top: 890px;
+    left: 30px;
+    height: 650px;
 }
 #snap5 {
     width: 29%;
     position: absolute;
-    top: 15000px;
-    left: 660px;
+    top: 890px;
+    left: 460px;
+    height: 650px;
+}
+#snap6 {
+    width: 29%;
+    position: absolute;
+    top: 890px;
+    left: 880px;
+    height: 650px;
+}
+#snapvideo2 {
+    width: 31%;
+    position: absolute;
+    top: 1595px;
+    left: 200px;
+    height: 650px;
+    background-image: none;
+}
+#snapvideo3 {
+    width: 31%;
+    position: absolute;
+    top: 1595px;
+    left: 700px;
+    height: 650px;
+    background-image: none;
 }
